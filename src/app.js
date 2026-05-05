@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('CI/CD PoC Application is running successfully on Feature branch');
+  res.send('CI/CD PoC Application is running successfully on Feature branches');
 });
 
 // Start server ONLY when running app directly
