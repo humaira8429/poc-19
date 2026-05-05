@@ -4,7 +4,7 @@ const app = express();
  
 app.get('/', (req, res) => {
 
-  res.send('CI/CD PoC Application is running successfully on Feature branch changed');
+  res.send('CI/CD PoC Application is running successfully on Feature branch');
 
 });
  
